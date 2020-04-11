@@ -1,0 +1,14 @@
+=== RUN   TestCollatzConjecture
+--- PASS: TestCollatzConjecture (0.00s)
+    collatz_conjecture_test.go:25: PASS: zero steps for one
+    collatz_conjecture_test.go:25: PASS: divide if even
+    collatz_conjecture_test.go:25: PASS: even and odd steps
+    collatz_conjecture_test.go:25: PASS: large number of even and odd steps
+    collatz_conjecture_test.go:25: PASS: zero is an error
+    collatz_conjecture_test.go:25: PASS: negative value is an error
+goos: linux
+goarch: amd64
+pkg: collatzconjecture
+BenchmarkCollatzConjecture-4   	 3000000	       535 ns/op	      32 B/op	       2 allocs/op
+PASS
+ok  	collatzconjecture	2.135s
