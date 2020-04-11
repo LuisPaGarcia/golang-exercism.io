@@ -1,0 +1,34 @@
+=== RUN   TestScore
+=== RUN   TestScore/Missed_target
+=== RUN   TestScore/On_the_outer_circle
+=== RUN   TestScore/On_the_middle_circle
+=== RUN   TestScore/On_the_inner_circle
+=== RUN   TestScore/Exactly_on_centre
+=== RUN   TestScore/Near_the_centre
+=== RUN   TestScore/Just_within_the_inner_circle
+=== RUN   TestScore/Just_outside_the_inner_circle
+=== RUN   TestScore/Just_within_the_middle_circle
+=== RUN   TestScore/Just_outside_the_middle_circle
+=== RUN   TestScore/Just_within_the_outer_circle
+=== RUN   TestScore/Just_outside_the_outer_circle
+=== RUN   TestScore/Asymmetric_position_between_the_inner_and_middle_circles
+--- PASS: TestScore (0.00s)
+    --- PASS: TestScore/Missed_target (0.00s)
+    --- PASS: TestScore/On_the_outer_circle (0.00s)
+    --- PASS: TestScore/On_the_middle_circle (0.00s)
+    --- PASS: TestScore/On_the_inner_circle (0.00s)
+    --- PASS: TestScore/Exactly_on_centre (0.00s)
+    --- PASS: TestScore/Near_the_centre (0.00s)
+    --- PASS: TestScore/Just_within_the_inner_circle (0.00s)
+    --- PASS: TestScore/Just_outside_the_inner_circle (0.00s)
+    --- PASS: TestScore/Just_within_the_middle_circle (0.00s)
+    --- PASS: TestScore/Just_outside_the_middle_circle (0.00s)
+    --- PASS: TestScore/Just_within_the_outer_circle (0.00s)
+    --- PASS: TestScore/Just_outside_the_outer_circle (0.00s)
+    --- PASS: TestScore/Asymmetric_position_between_the_inner_and_middle_circles (0.00s)
+goos: linux
+goarch: amd64
+pkg: darts
+BenchmarkScore-4   	50000000	        35.6 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	darts	1.818s
