@@ -1,0 +1,8 @@
+=== RUN   TestHey
+--- PASS: TestHey (0.00s)
+goos: linux
+goarch: amd64
+pkg: bob
+BenchmarkHey-4   	   10000	    127786 ns/op	   45191 B/op	     729 allocs/op
+PASS
+ok  	bob	1.295s

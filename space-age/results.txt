@@ -1,0 +1,16 @@
+=== RUN   TestAge
+--- PASS: TestAge (0.00s)
+    space_age_test.go:15: PASS: age on Earth
+    space_age_test.go:15: PASS: age on Mercury
+    space_age_test.go:15: PASS: age on Venus
+    space_age_test.go:15: PASS: age on Mars
+    space_age_test.go:15: PASS: age on Jupiter
+    space_age_test.go:15: PASS: age on Saturn
+    space_age_test.go:15: PASS: age on Uranus
+    space_age_test.go:15: PASS: age on Neptune
+goos: linux
+goarch: amd64
+pkg: space
+BenchmarkAge-4   	20000000	        73.2 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	space	1.539s

@@ -1,0 +1,14 @@
+=== RUN   TestRNATranscription
+--- PASS: TestRNATranscription (0.00s)
+    rna_transcription_test.go:11: PASS: Empty RNA sequence
+    rna_transcription_test.go:11: PASS: RNA complement of cytosine is guanine
+    rna_transcription_test.go:11: PASS: RNA complement of guanine is cytosine
+    rna_transcription_test.go:11: PASS: RNA complement of thymine is adenine
+    rna_transcription_test.go:11: PASS: RNA complement of adenine is uracil
+    rna_transcription_test.go:11: PASS: RNA complement
+goos: linux
+goarch: amd64
+pkg: strand
+BenchmarkRNATranscription-4   	  500000	      3403 ns/op	    2752 B/op	      24 allocs/op
+PASS
+ok  	strand	1.745s

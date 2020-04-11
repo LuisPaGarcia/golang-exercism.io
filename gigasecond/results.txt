@@ -1,0 +1,14 @@
+=== RUN   TestAddGigasecond
+--- PASS: TestAddGigasecond (0.00s)
+    gigasecond_test.go:28: PASS: date only specification of time
+    gigasecond_test.go:28: PASS: second test for date only specification of time
+    gigasecond_test.go:28: PASS: third test for date only specification of time
+    gigasecond_test.go:28: PASS: full time specified
+    gigasecond_test.go:28: PASS: full time with day roll-over
+    gigasecond_test.go:30: Tested 5 cases.
+goos: linux
+goarch: amd64
+pkg: gigasecond
+BenchmarkAddGigasecond-4   	30000000	        50.8 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	gigasecond	1.582s

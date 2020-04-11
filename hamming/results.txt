@@ -1,0 +1,8 @@
+=== RUN   TestHamming
+--- PASS: TestHamming (0.00s)
+goos: linux
+goarch: amd64
+pkg: hamming
+BenchmarkHamming-4   	10000000	       213 ns/op	      64 B/op	       4 allocs/op
+PASS
+ok  	hamming	2.357s

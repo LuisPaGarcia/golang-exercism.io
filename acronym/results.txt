@@ -1,0 +1,8 @@
+=== RUN   TestAcronym
+--- PASS: TestAcronym (0.00s)
+goos: linux
+goarch: amd64
+pkg: acronym
+BenchmarkAcronym-4   	   50000	     30421 ns/op	   10426 B/op	     198 allocs/op
+PASS
+ok  	acronym	1.828s

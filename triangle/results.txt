@@ -1,0 +1,10 @@
+=== RUN   TestKindsNotEqual
+--- PASS: TestKindsNotEqual (0.00s)
+=== RUN   TestKind
+--- PASS: TestKind (0.00s)
+goos: linux
+goarch: amd64
+pkg: triangle
+BenchmarkKind-4   	 2000000	       625 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	triangle	1.896s
